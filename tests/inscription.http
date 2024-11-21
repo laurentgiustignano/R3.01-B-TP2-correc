@@ -1,0 +1,27 @@
+### Inscription John Doe
+POST http://localhost:8080/signup.php
+Content-Type: application/x-www-form-urlencoded
+
+civilite = 1 &
+name = John Doe &
+email = john@doe.com &
+password = azerty
+
+### Inscription jane Doe
+POST http://localhost:8080/signup.php
+Content-Type: application/x-www-form-urlencoded
+
+civilite = 2 &
+name = Jane Doe &
+email = jane@doe.com &
+password = qwerty
+
+### Inscription Mario Bros
+POST http://localhost:8080/signup.php
+Content-Type: application/x-www-form-urlencoded
+
+civilite = 1 &
+name = Mario Bros &
+email = mario@nintendo.com &
+password = 1234
+

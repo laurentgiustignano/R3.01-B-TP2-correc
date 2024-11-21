@@ -1,0 +1,29 @@
+### Authentification John Doe
+POST http://localhost:8080/signup.php
+Content-Type: application/x-www-form-urlencoded
+
+email = john@doe.com &
+password = azerty
+
+### Authentification jane Doe
+POST http://localhost:8080/signup.php
+Content-Type: application/x-www-form-urlencoded
+
+email = jane@doe.com &
+password = qwerty
+
+### Authentification Mario Bros
+POST http://localhost:8080/signup.php
+Content-Type: application/x-www-form-urlencoded
+
+email = mario@nintendo.com &
+password = 1234
+
+
+### Fail Authentification Mario Bros
+POST http://localhost:8080/signup.php
+Content-Type: application/x-www-form-urlencoded
+
+email = mario@nintendo.com &
+password = 5678
+
